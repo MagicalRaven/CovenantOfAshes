@@ -1,0 +1,14 @@
+{
+  "name": "rhaelys",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "eleventy --serve",
+    "dev": "nodemon --watch . --ext js,md,njk,css --exec \"npm start\""
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
